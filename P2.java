@@ -16,6 +16,13 @@ public class P2 {
 			
 				for(int i = 1; i<= 10;i++) {
 					System.out.println(i);
+						try {
+				//it is Set Time duration between Threads
+				Thread.sleep(2000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 				}
 			
 		};
@@ -24,3 +31,4 @@ public class P2 {
 		 
 	}
 }
+
