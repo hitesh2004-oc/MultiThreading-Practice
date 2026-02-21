@@ -1,4 +1,5 @@
 package MultiThreading;
+// Example of Synchronized
 class ATM {
 	public synchronized void withDraw(String name, int amount) {
 		System.out.println(name+" Enter ATM");
@@ -29,3 +30,4 @@ public class P9 {
 	
 	}
 }
+
