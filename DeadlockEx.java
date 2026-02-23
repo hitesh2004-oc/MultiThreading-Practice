@@ -1,4 +1,5 @@
 package MultiThreading;
+// Deadlock Real Time Example
 class Library implements Runnable{
 	String res1 = new String("Java");
 	String res2 = new String("MySQL");
@@ -63,3 +64,4 @@ public class DeadlockEx {
 		t2.start();
 	}
 }
+
