@@ -24,7 +24,8 @@ public class P12 {
 		
 		//so We use ExecutorService to Create ThreadPool to Manage Thread
 		ExecutorService es = Executors.newFixedThreadPool(10);
-		
+
+		//for Process/Execute Task 
 		for(int i = 1;i<=15;i++) {
 			Future a = es.submit(f);
 			System.out.println(a.get().toString());
@@ -32,3 +33,4 @@ public class P12 {
 		es.shutdown();
 	}
 }
+
