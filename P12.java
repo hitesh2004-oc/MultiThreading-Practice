@@ -27,6 +27,8 @@ public class P12 {
 
 		//for Process/Execute Task 
 		for(int i = 1;i<=15;i++) {
+			// Submit is a method of ExecitorService 
+			// it is help to submit data in future
 			Future a = es.submit(f);
 			System.out.println(a.get().toString());
 		}
